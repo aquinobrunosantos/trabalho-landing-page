@@ -33,12 +33,13 @@ header > .menu{
     justify-content: center;
     gap: 16px;
     margin: auto;
+    
 }
 
 button{
     padding: 10px;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: rgb(235, 241, 246);
     color: black;
     font-weight: 500;
     margin-left: 1.9em;
@@ -49,6 +50,7 @@ button{
     text-decoration: none;
     color: antiquewhite;
     font-weight: 500;
+    
 
 }
 
@@ -218,3 +220,80 @@ h3{
     position: relative;
     top: -90px;
 }
+
+@media screen and (min-width:324px) and (max-width:768px){
+   
+    
+
+    header >.menu{
+        display: none;
+        width: 100%;
+    }
+    header> button.btt1{
+        display: none !important;
+        background-color: blue;
+ }
+
+ main{
+    background-image: url(imagens/fundo.png);
+    background-attachment: fixed;
+    margin: auto;
+    background-position: left center;
+    background-repeat: no-repeat;
+ }
+
+ .btt1{
+    display: none;
+ }
+
+ .logo{
+    margin-right: auto;
+    
+    width: 40%;
+   
+ }
+
+ #icons{
+    color: aliceblue;
+    cursor: pointer;
+    z-index: 1;
+    margin: auto;
+    
+    position: relative;
+    left: -25%;
+ }
+#conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    margin: auto;
+    gap: 20px;
+   position: relative;
+   bottom:60px ;
+   
+}
+
+.text1{
+    justify-content: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1em;
+    background-color:blueviolet ;
+}
+
+.text2{
+    text-align: justify;
+    text-align: center;
+    font-size: 0.5em;
+    margin: auto;
+}
+
+
+.bt2{
+   
+}
+}
+
