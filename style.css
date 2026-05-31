@@ -238,9 +238,10 @@ h3{
     background-image: url(imagens/fundo.png);
     background-attachment: fixed;
     margin: auto;
-    background-position: left center;
+    background-position: center top ;
     background-repeat: no-repeat;
- }
+    background-size:auto; 
+}
 
  .btt1{
     display: none;
@@ -268,7 +269,7 @@ h3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: blueviolet;
+   
     margin: auto;
     gap: 20px;
    position: relative;
@@ -281,7 +282,7 @@ h3{
     justify-content: center;
     margin: auto;
     font-size: 1em;
-    background-color:blueviolet ;
+   
 }
 
 .text2{
